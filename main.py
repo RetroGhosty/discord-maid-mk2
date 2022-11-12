@@ -23,4 +23,4 @@ tree = app_commands.CommandTree(client)
 @tree.command(name='ping', description="test response")
 async def self(interaction: discord.Interaction, name: str):
     await interaction.response.send_message(f'Hello {name}!')
-client.run('NjE3MDE1ODM3MDEzODM1Nzkx.GQbgRe.e6WdFx_28qLiYBB7eFX95Stjodvmv-qbhDD4cY')
+client.run('')
